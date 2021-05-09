@@ -30,3 +30,10 @@
 *.exe
 *.out
 *.app
+
+# IDE files
+*.user
+
+Debug
+Release
+x64
