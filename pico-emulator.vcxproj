@@ -95,11 +95,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="include\msg_assert.h" />
     <ClInclude Include="include\hardware\flash.h" />
     <ClInclude Include="include\hardware\irq.h" />
     <ClInclude Include="include\hardware\pwm.h" />
     <ClInclude Include="include\hardware\regs\addressmap.h" />
     <ClInclude Include="include\hardware\sync.h" />
+    <ClInclude Include="include\ioregister.h" />
     <ClInclude Include="include\pico\multicore.h" />
     <ClInclude Include="include\pico\stdlib.h" />
     <ClInclude Include="include\rp2040.h" />
@@ -107,12 +109,14 @@
     <ClInclude Include="pch.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="flash.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="src\hardware\flash.cpp" />
+    <ClCompile Include="src\hardware\irq.cpp" />
     <ClCompile Include="src\hardware\pwm.cpp" />
+    <ClCompile Include="src\ioregister.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

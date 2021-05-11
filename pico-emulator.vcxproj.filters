@@ -45,6 +45,12 @@
     <ClInclude Include="include\hardware\regs\addressmap.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="include\ioregister.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\msg_assert.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pch.cpp">
@@ -53,7 +59,13 @@
     <ClCompile Include="src\hardware\pwm.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="flash.cpp">
+    <ClCompile Include="src\ioregister.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hardware\flash.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hardware\irq.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

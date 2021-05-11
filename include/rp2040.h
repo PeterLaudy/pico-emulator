@@ -3,6 +3,6 @@
 
 #include "types.h"
 
-#define NUM_PWM_SLICES 8
+#define NUM_PWM_SLICES 8u
 
 #endif
