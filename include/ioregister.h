@@ -1,7 +1,6 @@
 #ifndef _IOREGISTER_H
 #define _IOREGISTER_H
 
-#include <types.h>
 #include <functional>
 
 typedef void (*callback_t)(uint32_t, uint32_t);

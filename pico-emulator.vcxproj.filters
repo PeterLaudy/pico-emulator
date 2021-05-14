@@ -27,9 +27,6 @@
     <ClInclude Include="include\rp2040.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="include\types.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="include\hardware\flash.h">
       <Filter>Header Files</Filter>
     </ClInclude>

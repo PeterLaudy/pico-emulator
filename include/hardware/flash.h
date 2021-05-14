@@ -1,7 +1,8 @@
 #ifndef _FLASH_H
 #define _FLASH_H
 
-#include <types.h>
+#include <sys/types.h>
+#include <stdint.h>
 
 #define FLASH_SECTOR_SIZE 4096
 #define FLASH_PAGE_SIZE 256

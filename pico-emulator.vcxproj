@@ -105,7 +105,6 @@
     <ClInclude Include="include\pico\multicore.h" />
     <ClInclude Include="include\pico\stdlib.h" />
     <ClInclude Include="include\rp2040.h" />
-    <ClInclude Include="include\types.h" />
     <ClInclude Include="pch.h" />
   </ItemGroup>
   <ItemGroup>

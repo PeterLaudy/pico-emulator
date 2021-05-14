@@ -1,6 +1,7 @@
 #ifndef _IRQ_H
 #define _IRQ_H
 
+#include "../rp2040.h"
 #include "sync.h"
 
 #define TIMER_IRQ_0 0
