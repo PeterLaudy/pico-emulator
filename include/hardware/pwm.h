@@ -57,6 +57,7 @@ class pwm_hw_t {
         void set_irq_enabled(bool enabled);
         void increase_counters();
         bool call_next_irq();
+        uint32_t currentCounterValue() const { return base_counter; };
 };
 
 extern pwm_hw_t * pwm_hw;
